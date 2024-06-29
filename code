@@ -1,0 +1,132 @@
+/**
+* Project Untitled
+*/
+#ifndef _ASSOCIATIONCLASS1_H
+#define _ASSOCIATIONCLASS1_H
+class AssociationClass1 {
+};
+#endif //_ASSOCIATIONCLASS1_H
+/**
+* Project Untitled
+*/
+#ifndef _CARD PAYMENT_H
+#define _CARD PAYMENT_H
+class Card Payment {
+};
+#endif //_CARD PAYMENT_H
+/**
+* Project Untitled
+*/
+#ifndef _CASH_H
+#define _CASH_H
+class Cash {
+};
+#endif //_CASH_H
+
+/**
+* Project Untitled
+*/
+#ifndef _CUSTOMER_H
+#define _CUSTOMER_H
+class Customer {
+public:
+ void id;
+ void name;
+ void phone number;
+
+void lm();
+
+void view customer details();
+
+void logout();
+};
+#endif //_CUSTOMER_H
+
+
+
+/**
+* Project Untitled
+*/
+#ifndef _MANAGER_H
+#define _MANAGER_H
+class Manager {
+public:
+ void New order;
+ void Order total;
+ void Confirm Order;
+
+void generate bill();
+};
+#endif //_MANAGER_H
+
+/**
+* Project Untitled
+*/
+#ifndef _ORDER_H
+#define _ORDER_H
+class Order {
+public:
+ void OrderID;
+ void OrderDate;
+ void Total Items;
+
+void Order Prices();
+};
+#endif //_ORDER_H
+
+/**
+* Project Untitled
+*/
+#ifndef _PAYMENT_H
+#define _PAYMENT_H
+class Payment {
+public:
+ void date;
+ void paymentID;
+ void Tax;
+
+void Payment Method();
+};
+#endif //_PAYMENT_H
+
+/**
+* Project Untitled
+*/
+#ifndef _RECEIPT_H
+#define _RECEIPT_H
+class Receipt {
+public:
+ void receiptID;
+ void receiptDate;
+ void receiptTax;
+ void receiptItems;
+};
+#endif //_RECEIPT_H
+
+
+/**
+* Project Untitled
+*/
+#ifndef _TABLE_H
+#define _TABLE_H
+class Table {
+public:
+ void TableID;
+ void TableNumber;
+ void TablePeople;
+ void TableTime;
+};
+#endif //_TABLE_H
+
+/**
+* Project Untitled
+*/
+#ifndef _WAITER_H
+#define _WAITER_H
+class Waiter {
+public:
+ void name;
+ void WaiterID;
+ void Order details;
+};
+#endif //_WAITER_H
